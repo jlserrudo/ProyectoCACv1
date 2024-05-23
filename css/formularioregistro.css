@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size:1rem
+}
 html{
     display: flex;
     height: 100%;
@@ -72,7 +80,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.nombre, .apellido, .email, .date{
+.nombre, .apellido, .email, .contrasena, .date{
     width: 300px;
     height: 40px;
     border-radius: 40px;
@@ -122,3 +130,7 @@ a{
     border-radius: 20px;
     border: 3px solid black;
   }
+
+.error{
+    color: red;
+}

@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
+   
+
     <title>CAC-MOVIES</title>
 
 </head>
@@ -91,6 +93,7 @@
         <section id="tendencias">
             <h3 class="tituloSection">Las tendencias de hoy</h3>
             <div class="peliculas" id="tendenciasContainer">
+                <!--
                 <div class="peliculas"><a href="./pages/detalle.html">
                         <div class="pelicula"><img class="imgTendencia"
                                 src="https://image.tmdb.org/t/p/w500//gmGK5Gw5CIGMPhOmTO0bNA9Q66c.jpg"
@@ -100,6 +103,7 @@
                             </div>
                         </div>
                     </a></div>
+                    
                 <div class="peliculas"><a href="./pages/detalle.html">
                         <div class="pelicula"><img class="imgTendencia"
                                 src="https://image.tmdb.org/t/p/w500//kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg"
@@ -271,10 +275,13 @@
                             </div>
                         </div>
                     </a></div>
+
+                    -->
+
             </div>
             <div class="contenedorBotones">
-                <button class="botonanterior">Anterior</button>
-                <button class="botonsiguiente">Siguiente</button>
+                <button class="botonanterior" id="botonanterior">Anterior</button>
+                <button class="botonsiguiente" id="botonsiguiente">Siguiente</button>
             </div>
         </section>
 
@@ -336,7 +343,7 @@
             </a>
         </footer>
 
-
+        <script src="./js/index.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
