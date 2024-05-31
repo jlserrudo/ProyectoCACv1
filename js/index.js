@@ -56,7 +56,6 @@ const cargarPeliculas = async() => {
     //Agrego el titulo de cada pelicula con "title"
     datos.results.forEach(pelicula => {
         
-        
         peliculas += `
         <div class="peliculas"><a href="../pages/detalle.html">
         <div class="pelicula"><img class="imgTendencia"
