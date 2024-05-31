@@ -57,7 +57,7 @@ const cargarPeliculas = async() => {
     datos.results.forEach(pelicula => {
         
         peliculas += `
-        <div class="peliculas"><a href="../pages/detalle.html">
+        <div class="peliculas"><a href="./pages/detalle.html">
         <div class="pelicula"><img class="imgTendencia"
                 src="https://image.tmdb.org/t/p/w500/${pelicula.poster_path}"
                 alt="${pelicula.title}" loading="lazy">
